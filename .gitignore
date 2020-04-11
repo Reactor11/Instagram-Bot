@@ -1,0 +1,6 @@
+.gradle/
+.idea/
+build/
+.ipynb_checkpoints/
+.vscode/
+__pycache__/
