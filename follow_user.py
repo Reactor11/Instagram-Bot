@@ -2,7 +2,7 @@ import os
 import sys
 from instabot import Bot
 
-bot = Bot(filter_users=False)
+bot = Bot(filter_users=True)
 users_to_follow = bot.read_list_from_file('followers.txt')
 if not users_to_follow:
     exit()
