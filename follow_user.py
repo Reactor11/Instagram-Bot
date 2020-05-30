@@ -9,6 +9,6 @@ if not users_to_follow:
 else:
     print("Found %d users in file." % len(users_to_follow))
 
-bot.login(username="trollcharge", password="instagram1!")
+bot.login(username=str(sys.argv[1]), password=str(sys.argv[2]))
 
 bot.follow_users(users_to_follow)
