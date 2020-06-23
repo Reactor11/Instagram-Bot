@@ -1,39 +1,39 @@
 {
-    schema: [
-      {
-        name: 'track_name',
-        label: 'Track Name',
-        dataType: 'STRING'
-      },
-      {
-        name: 'artist',
-        label: 'Artist',
-        dataType: 'STRING'
-      },
-      {
-        name: 'played_at_hour',
-        label: 'Played at (date + hour)',
-        dataType: 'STRING'
-      },
-      {
-        name: 'played_at_date',
-        label: 'Played at (date)',
-        dataType: 'STRING'
-      },
-      {
-        name: 'plays',
-        label: 'Plays',
-        dataType: 'NUMBER'
-      },
-      {
-        name: 'tracks_count',
-        label: 'Played Tracks',
-        dataType: 'NUMBER',
-      },
-      {
-        name: 'popularity',
-        label: 'Popularity',
-        dataType: 'NUMBER'
-      }
-    ]
-  }
+  "schema": [
+    {
+      "name": "track_name",
+      "label": "Track Name",
+      "dataType": "STRING"
+    },
+    {
+      "name": "artist",
+      "label": "Artist",
+      "dataType": "STRING"
+    },
+    {
+      "name": "played_at_hour",
+      "label": "Played at (date + hour)",
+      "dataType": "STRING"
+    },
+    {
+      "name": "played_at_date",
+      "label": "Played at (date)",
+      "dataType": "STRING"
+    },
+    {
+      "name": "plays",
+      "label": "Plays",
+      "dataType": "NUMBER"
+    },
+    {
+      "name": "tracks_count",
+      "label": "Played Tracks",
+      "dataType": "NUMBER"
+    },
+    {
+      "name": "popularity",
+      "label": "Popularity",
+      "dataType": "NUMBER"
+    }
+  ]
+}
